@@ -1,0 +1,16 @@
+- 👋 Hi, I’m @Lokeshwaran
+Body-Control-Module-CAN/
+│
+├── README.md          # Overview of the project
+├── src/               # Source code for all nodes
+│   ├── main_node.c    # Code for main control node
+│   ├── left_indicator.c  # Code for left indicator node
+│   ├── right_indicator.c # Code for right indicator node
+│   └── wiper.c         # Code for wiper control node
+├── CAN_Driver/        # CAN protocol implementation
+│   └── can_driver.c
+├── docs/              # Project documentation
+│   ├── schematic.png  # Circuit diagram (optional)
+│   └── project_report.pdf  # Detailed project report (optional)
+├── Makefile           # (If using a build system like Make)
+└── .gitignore         # Ignore files you don’t want to upload
